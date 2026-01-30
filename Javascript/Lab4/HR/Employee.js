@@ -1,3 +1,5 @@
+//Parent Class
+
 class Employee{
     constructor(id, firstName, lastName, email, contactNumber, location, birthDate){
         if(new.target === Employee){
