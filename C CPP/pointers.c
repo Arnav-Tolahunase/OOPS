@@ -1,3 +1,4 @@
+//pointers in c and use of &, *
 #include <stdio.h>
 
 int calcMarks(int* sub1, int* sub2){      //call by value 
