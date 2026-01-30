@@ -1,3 +1,4 @@
+//Child class
 const Employee=require('./Employee');
 
 class SalesEmployee extends Employee{
