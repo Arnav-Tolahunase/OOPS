@@ -1,6 +1,6 @@
 //Parent Class
 
-class Employee{
+class Employee{ //class declared
     constructor(id, firstName, lastName, email, contactNumber, location, birthDate){
         if(new.target === Employee){
             throw new Error("Employee is an abstract class and cannot be instantiated");
