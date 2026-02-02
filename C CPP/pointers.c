@@ -18,8 +18,14 @@ int main(){
     int* p = &a; //pointer variable p stores the address of variable a
     int val=*p; //dereferencing pointer p to get the value of a
     printf("Value of a using pointer: %d\n", val);
-    printf("Address of a: %p\n", (void*)&a);
-    printf("Address stored in pointer p: %p\n", (void*)p);
+    printf("Address of a: %p\n", &a);
+    printf("Address of *p: %d\n", *p);
+    printf("Address stored in pointer p: %p\n\n",p);
+
+
+    
+
+
 
     return 0;
 }
